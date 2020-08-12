@@ -102,7 +102,7 @@ console.log(feed(1, 15));
 
 function game(choice){
     let player = choice;
-    let computer = Math.random(1, 2, 3)
+    let computer = Math.random();
     let final = 'You Lose';
     if (player ==='rock'){
         player = 1;
@@ -121,8 +121,8 @@ function game(choice){
 //a. KM to Miles - should take the number of kilometers and convert it to the equal number of miles
 
 
-let KM = '100';
-let Miles = parseInt(KM, 8);
+let KM = '30';
+let Miles = parseInt(KM, 6);
 console.log(Miles)
 
 
